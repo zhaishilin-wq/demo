@@ -23,15 +23,15 @@ public class JsonController {
 
     private int doSomethingWith(int value) {
         // 这里进行你需要的处理，例如加 1
-        int i = 0;
+        int result = 0;
         if (value != 0) {
-            for (i = 0; i < value; i++) {
-                i += i;
+            for (int i = 0; i < value; i++) {
+               result += i ;
             }
         } else {
             System.out.printf("请输入正确值" );
         }
 //        String result = i;
-        return i;
+        return result;
     }
 }
