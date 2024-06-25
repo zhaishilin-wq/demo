@@ -29,7 +29,7 @@ public class JsonController {
                 i += i;
             }
         } else {
-            System.out.printf("请输入");
+            System.out.printf("请输入正确值" );
         }
 //        String result = i;
         return i;
