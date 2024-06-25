@@ -32,6 +32,6 @@ public class JsonController {
             System.out.printf("请输入正确值" );
         }
 //        String result = i;
-        return result;
+        return result*10;
     }
 }
